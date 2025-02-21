@@ -1,0 +1,4 @@
+python-dotenv
+--upgrade llama-index
+install openai
+--upgrade anthropic
