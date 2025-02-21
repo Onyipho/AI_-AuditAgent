@@ -1,2 +1,3 @@
 # AI_AuditAgent
-Multi agent RAG-based smart contract auditor
+Multi agent RAG-based smart contract auditor.
+This is a smart contract audit enchancement project with Nethermind. The audit agent architecture is inspired by GANs wherein a chatGPT model acts as an actor, auditing contracts using Retrieval Augmented Generation. A dictionary of pervious benchmark audits and their corresponding findings plus github links of previous hacks and vulnerabilities are indexed and passed to the chatGTP model using OpenAI embeddings for the model to retrieve relevant audit context based on the provided smart contract for auditing. A Claude model acts as a critic, providing feedback to the ChatGPT to refined the audit report based on setting predefined rules.
